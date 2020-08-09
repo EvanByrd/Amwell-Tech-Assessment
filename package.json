@@ -1,0 +1,15 @@
+{
+  "name": "evan-byrd_amwell-tech-assessment",
+  "version": "1.0.0",
+  "description": "Amwell Tech Assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Evan Byrd",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {}
+}
