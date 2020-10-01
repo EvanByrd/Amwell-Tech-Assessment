@@ -9,7 +9,7 @@ async function getData() {
     }
 }
 
-(async function main() {
+async function main() {
     const  data = await getData()
     const dataList = data.split(/\n/)
     const numericData = dataList.reduce((acc, elem) => {
@@ -30,4 +30,6 @@ async function getData() {
     numericData.sort((a, b) => {return a - b})
     
     console.log(numericData.slice(0,3))
-})();
+}
+
+main()
