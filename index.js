@@ -25,7 +25,7 @@ async function getData() {
             acc.push(elem)
         }
         return acc
-    }, [])
+    }, []) // Javascript Arrays are Objects with their values stored in a Hash Table.
 
     numericData.sort((a, b) => {return a - b})
     
